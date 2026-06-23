@@ -1,0 +1,31 @@
+# Python / cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Large datasets and generated artifacts
+data/
+Data/Dynamic_Graph_data/
+results/
+slurm_logs/
+representation/
+save_model/
+
+# Model/data binaries
+*.pkl
+*.pt
+*.pth
+*.npy
+*.npz
+*.csv
+*.zip
+
+# Runtime outputs
+*.out
+*.err
+*.log
+
+# Local/editor files
+.DS_Store
+.vscode/
+.idea/

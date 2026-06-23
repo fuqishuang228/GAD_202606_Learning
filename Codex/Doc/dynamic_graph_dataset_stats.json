@@ -1,0 +1,115 @@
+{
+  "Bitcoin-Alpha": {
+    "archive": "/home/qfu/bx82_scratch/qfu/[A]GAD_202606_learning/Data/Dynamic_Graph_data/Bitcoin-Alpha/soc-sign-bitcoinalpha.csv.gz",
+    "file": "/home/qfu/bx82_scratch/qfu/[A]GAD_202606_learning/Data/Dynamic_Graph_data/Bitcoin-Alpha/soc-sign-bitcoinalpha.csv",
+    "negative_edges": 1536,
+    "nodes": 3783,
+    "positive_edges": 22650,
+    "rating_counts": {
+      "-10": 812,
+      "-9": 13,
+      "-8": 15,
+      "-7": 5,
+      "-6": 6,
+      "-5": 112,
+      "-4": 14,
+      "-3": 62,
+      "-2": 68,
+      "-1": 429,
+      "1": 13760,
+      "2": 4113,
+      "3": 1933,
+      "4": 744,
+      "5": 957,
+      "6": 201,
+      "7": 149,
+      "8": 224,
+      "9": 75,
+      "10": 494
+    },
+    "rows": 24186,
+    "size": "145.98 KB",
+    "timestamp_max": 1453438800,
+    "timestamp_min": 1289192400
+  },
+  "EllipticBitcoin": {
+    "class_counts": {
+      "1": 4545,
+      "2": 42019,
+      "unknown": 157205
+    },
+    "edges": 234355,
+    "feature_dim_including_time": 166,
+    "files": [
+      "/home/qfu/bx82_scratch/qfu/[A]GAD_202606_learning/Data/Dynamic_Graph_data/EllipticBitcoin/elliptic_txs_features.csv",
+      "/home/qfu/bx82_scratch/qfu/[A]GAD_202606_learning/Data/Dynamic_Graph_data/EllipticBitcoin/elliptic_txs_classes.csv",
+      "/home/qfu/bx82_scratch/qfu/[A]GAD_202606_learning/Data/Dynamic_Graph_data/EllipticBitcoin/elliptic_txs_edgelist.csv"
+    ],
+    "nodes": 203769,
+    "sizes": {
+      "elliptic_txs_classes.csv": "3.15 MB",
+      "elliptic_txs_edgelist.csv": "4.26 MB",
+      "elliptic_txs_features.csv": "657.73 MB"
+    },
+    "time_step_max": 49,
+    "time_step_min": 1,
+    "time_steps": 49
+  },
+  "MOOC": {
+    "archive": "/home/qfu/bx82_scratch/qfu/[A]GAD_202606_learning/Data/Dynamic_Graph_data/MOOC/act-mooc.tar.gz",
+    "feature_dim": 4,
+    "file": "/home/qfu/bx82_scratch/qfu/[A]GAD_202606_learning/Data/Dynamic_Graph_data/MOOC/act-mooc/mooc_actions.tsv",
+    "label_counts": {
+      "0": 407683,
+      "1": 4066
+    },
+    "rows": 411749,
+    "size": "5.13 MB",
+    "targets": 97,
+    "timestamp_max": 2572086,
+    "timestamp_min": 0,
+    "users": 7047
+  },
+  "Reddit": {
+    "feature_dim": 172,
+    "file": "/home/qfu/bx82_scratch/qfu/[A]GAD_202606_learning/Data/Dynamic_Graph_data/Reddit/reddit.csv",
+    "header": [
+      "user_id",
+      "item_id",
+      "timestamp",
+      "state_label",
+      "comma_separated_list_of_features"
+    ],
+    "items": 984,
+    "label_counts": {
+      "0": 672081,
+      "1": 366
+    },
+    "rows": 672447,
+    "size": "2.21 GB",
+    "timestamp_max": 2678390.016,
+    "timestamp_min": 0.0,
+    "users": 10000
+  },
+  "Wiki": {
+    "feature_dim": 172,
+    "file": "/home/qfu/bx82_scratch/qfu/[A]GAD_202606_learning/Data/Dynamic_Graph_data/Wiki/wikipedia.csv",
+    "header": [
+      "user_id",
+      "item_id",
+      "timestamp",
+      "state_label",
+      "comma_separated_list_of_features"
+    ],
+    "items": 1000,
+    "label_counts": {
+      "0": 157257,
+      "1": 217
+    },
+    "rows": 157474,
+    "size": "534.00 MB",
+    "timestamp_max": 2678373.0,
+    "timestamp_min": 0.0,
+    "users": 8227
+  }
+}
